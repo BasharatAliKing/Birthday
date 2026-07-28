@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#f43f8e"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="cake" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="frosting" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f9a8d4"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="url(#bg)"/>
+
+  <!-- Cake body -->
+  <rect x="6" y="16" width="20" height="11" rx="2" fill="url(#cake)"/>
+
+  <!-- Frosting drip -->
+  <path d="M6 18 Q8 15 10 18 Q12 15 14 18 Q16 15 18 18 Q20 15 22 18 Q24 15 26 18 L26 16 L6 16 Z" fill="url(#frosting)" opacity="0.95"/>
+
+  <!-- Cake middle layer -->
+  <rect x="7" y="20" width="18" height="1.5" rx="0.5" fill="rgba(255,255,255,0.25)"/>
+
+  <!-- Candles -->
+  <rect x="11" y="10" width="2.5" height="6" rx="1" fill="#f43f8e"/>
+  <rect x="18.5" y="10" width="2.5" height="6" rx="1" fill="#a855f7"/>
+
+  <!-- Flames -->
+  <ellipse cx="12.25" cy="9.5" rx="1.2" ry="1.8" fill="#fbbf24" opacity="0.95"/>
+  <ellipse cx="12.25" cy="9.2" rx="0.6" ry="1" fill="#fff" opacity="0.6"/>
+  <ellipse cx="19.75" cy="9.5" rx="1.2" ry="1.8" fill="#fbbf24" opacity="0.95"/>
+  <ellipse cx="19.75" cy="9.2" rx="0.6" ry="1" fill="#fff" opacity="0.6"/>
+
+  <!-- Sprinkles on cake -->
+  <rect x="9"  y="22" width="3" height="1" rx="0.5" fill="#f43f8e" transform="rotate(-20 10.5 22.5)"/>
+  <rect x="14" y="21" width="3" height="1" rx="0.5" fill="#a855f7" transform="rotate(15 15.5 21.5)"/>
+  <rect x="19" y="23" width="3" height="1" rx="0.5" fill="#22d3ee" transform="rotate(-10 20.5 23.5)"/>
+  <rect x="11" y="24" width="2.5" height="1" rx="0.5" fill="#fbbf24" transform="rotate(25 12 24.5)"/>
+</svg>
